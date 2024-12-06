@@ -1,0 +1,33 @@
+---
+import Layout from '~/layouts/LandingLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+const metadata = {
+  title: 'Lead Generation Landing Page Demo',
+};
+---
+
+<Layout metadata={metadata}>
+  
+  <Hero
+    tagline="ICHQP 2026"
+    title="22nd International Conference on Harmonics and Quality of Power"
+    image={{
+      src: '~/assets/images/skyline_dresden_autumn_small.png',
+      alt: 'Magnet attracting screws. Lead generation landing page demo',
+    }}
+  >
+    <Fragment slot="subtitle">
+      <!-- <span class="block mb-1 font-bold text-red-600">1<sup>st</sup> ICHQP workshop</span> -->
+      <!-- <Image src="~/assets/images/Logo_workshop.png" alt="Workshop Image" class="my-4 mx-auto max-w-full" width="170" /> -->
+      Dresden, Germany <br />
+      August 31st - September 3rd 2026
+    </Fragment>
+  </Hero>
+
+  <CallToAction
+    title="More information coming soon."
+  />
+</Layout>
