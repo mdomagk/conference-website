@@ -10,7 +10,7 @@ site:
 metadata:
   title:
     default: ICHQP 2026
-    template: '%s — ICHQP 2026'
+    template: '%s' # '%s — ICHQP 2026'
   description: "\U0001F680 ICHQP 2026"
   robots:
     index: true
