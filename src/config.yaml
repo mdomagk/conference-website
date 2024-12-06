@@ -1,6 +1,6 @@
 site:
-  name: ICHQP workshop
-  site: 'https://ichqp-workshop.org'
+  name: ICHQP 2026
+  site: 'https://ichqp2026.org'
   base: '/'
   trailingSlash: false
 
@@ -9,16 +9,16 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: ICHQP workshop
-    template: '%s — ICHQP workshop'
-  description: "\U0001F680 1st ICHQP workshop 2025"
+    default: ICHQP 2026
+    template: '%s — ICHQP 2026'
+  description: "\U0001F680 ICHQP 2026"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: ICHQP workshop
+    site_name: ICHQP 2026
     images:
-      - url: '~/assets/images/KCL-ICHQP.png'
+      - url: '~/assets/images/skyline_dresden_autumn_small.jpg'
         width: 1200
         height: 628
     type: website
