@@ -2,73 +2,73 @@ import { getPermalink } from './utils/permalinks';
 // import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
-  links: [
-    {
-      text: 'Workshop',
-      href: getPermalink('/'),
-      links: [
-        {
-          text: 'About',
-          href: getPermalink('/#about'),
-        },
-        {
-          text: 'Concept',
-          href: getPermalink('/#concept'),
-        },
-        {
-          text: 'Topics',
-          href: getPermalink('/#topics'),
-        },
-        {
-          text: 'Organizing Committee',
-          href: getPermalink('/#committee'),
-        },
-      ],
-    },
-    {
-      text: 'Program',
-      href: getPermalink('/program'),
-    },
-    {
-      text: 'Authors',
-      href: getPermalink('/authors'),
-      links: [
-        {
-          text: 'Important Dates',
-          href: getPermalink('/authors#important-dates'),
-        },
-        {
-          text: 'Abstract Submission',
-          href: getPermalink('/authors#abstract-submission'),
-        },
-        {
-          text: 'Presentation Details',
-          href: getPermalink('/authors#presentation-details'),
-        },
-        // {
-        //   text: 'Oral Presentation',
-        //   href: getPermalink('/authors#oral-presentation'),
-        // },
-        // {
-        //   text: 'Poster Session',
-        //   href: getPermalink('/authors#poster-session'),
-        // },
-      ],
-    },
-    {
-      text: 'Registration',
-      href: getPermalink('/registration'),
-    },
-    {
-      text: 'Venue',
-      href: getPermalink('/venue'),
-    },
-    {
-      text: 'Contact',
-      href: getPermalink('/contacts'),
-    },
-  ],
-  actions: [{ text: 'Brochure (PDF)', href: '/documents/Brochure-ICHQP-workshop.pdf', target: '_blank' }],
+  // links: [
+  //   {
+  //     text: 'Workshop',
+  //     href: getPermalink('/'),
+  //     links: [
+  //       {
+  //         text: 'About',
+  //         href: getPermalink('/#about'),
+  //       },
+  //       {
+  //         text: 'Concept',
+  //         href: getPermalink('/#concept'),
+  //       },
+  //       {
+  //         text: 'Topics',
+  //         href: getPermalink('/#topics'),
+  //       },
+  //       {
+  //         text: 'Organizing Committee',
+  //         href: getPermalink('/#committee'),
+  //       },
+  //     ],
+  //   },
+  //   {
+  //     text: 'Program',
+  //     href: getPermalink('/program'),
+  //   },
+  //   {
+  //     text: 'Authors',
+  //     href: getPermalink('/authors'),
+  //     links: [
+  //       {
+  //         text: 'Important Dates',
+  //         href: getPermalink('/authors#important-dates'),
+  //       },
+  //       {
+  //         text: 'Abstract Submission',
+  //         href: getPermalink('/authors#abstract-submission'),
+  //       },
+  //       {
+  //         text: 'Presentation Details',
+  //         href: getPermalink('/authors#presentation-details'),
+  //       },
+  //       // {
+  //       //   text: 'Oral Presentation',
+  //       //   href: getPermalink('/authors#oral-presentation'),
+  //       // },
+  //       // {
+  //       //   text: 'Poster Session',
+  //       //   href: getPermalink('/authors#poster-session'),
+  //       // },
+  //     ],
+  //   },
+  //   {
+  //     text: 'Registration',
+  //     href: getPermalink('/registration'),
+  //   },
+  //   {
+  //     text: 'Venue',
+  //     href: getPermalink('/venue'),
+  //   },
+  //   {
+  //     text: 'Contact',
+  //     href: getPermalink('/contacts'),
+  //   },
+  // ],
+  // actions: [{ text: 'Brochure (PDF)', href: '/documents/Brochure-ICHQP-workshop.pdf', target: '_blank' }],
 };
 
 export const footerData = {
