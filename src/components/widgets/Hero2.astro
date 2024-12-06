@@ -31,7 +31,7 @@ const {
         {
           tagline && (
             <p
-              class="text-4xl text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 intersect-quarter"
+              class="text-xl text-secondary dark:text-blue-200 font-bold tracking-wide uppercase intersect-once motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 intersect-quarter"
               set:html={tagline}
             />
           )
@@ -72,7 +72,7 @@ const {
         </div>
         {content && <Fragment set:html={content} />}
       </div>
-      <div class="basis-1/2">
+      <div class="basis-4/6">
         {
           image && (
             <div class="relative m-auto max-w-5xl intersect-once intercept-no-queue motion-safe:md:intersect:animate-fade motion-safe:md:opacity-0 intersect-quarter">
@@ -84,8 +84,8 @@ const {
                   widths={[400, 768, 1024, 2040]}
                   sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
                   loading="eager"
-                  width={600}
-                  height={600}
+                  width={900}
+                  height={700}
                   {...image}
                 />
               )}
